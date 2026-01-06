@@ -148,8 +148,6 @@ import VoiceGeoRank from "./VoiceGeoRank";
 
 import WebsiteAnalyzer from "./WebsiteAnalyzer";
 
-import ConnectSquare from "./connect-square";
-
 import AIScheduling from "./AIScheduling";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
@@ -303,9 +301,7 @@ const PAGES = {
     VoiceGeoRank: VoiceGeoRank,
     
     WebsiteAnalyzer: WebsiteAnalyzer,
-    
-    ConnectSquare: ConnectSquare,
-    
+        
     AIScheduling: AIScheduling,
     
 }
@@ -482,9 +478,7 @@ function PagesContent() {
                 <Route path="/VoiceGeoRank" element={<VoiceGeoRank />} />
                 
                 <Route path="/WebsiteAnalyzer" element={<WebsiteAnalyzer />} />
-                
-                <Route path="/connect-square" element={<connect-square />} />
-                
+                                
                 <Route path="/AIScheduling" element={<AIScheduling />} />
                 
             </Routes>
